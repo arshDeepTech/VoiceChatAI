@@ -8,3 +8,4 @@ torch>=2.0.0
 pyttsx3
 sentencepiece
 soundfile
+git+https://github.com/openai/whisper.git 
