@@ -1,0 +1,83 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice Chatbot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <div class="header-content">
+        <i class="fas fa-robot"></i>
+        <h1>Voice ChatAI</h1>
+      </div>
+      <select id="voiceType" class="voice-selector">
+        <option value="female">Female Voice</option>
+        <option value="male">Male Voice</option>
+      </select>
+    </div>
+    
+    <div class="chat-messages" id="chat-messages">
+      <div class="message bot-message">
+        <div class="message-content">
+          <i class="fas fa-robot bot-icon"></i>
+          <p>Hello, how can I help you today?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="input-group">
+        <input type="text" class="message-input" placeholder="Type your message..." id="message-input">
+        
+        <button class="action-button record-button" id="record-button">
+          <i class="fas fa-microphone"></i>
+          <span>Record</span>
+        </button>
+        
+        <button class="action-button upload-button" id="upload-button">
+          <i class="fas fa-upload"></i>
+        </button>
+      </div>
+
+      <div class="recording-indicator" id="recording-indicator">
+        <div class="pulse-ring"></div>
+        <i class="fas fa-circle recording-icon"></i>
+        <span>Recording...</span>
+      </div>
+
+      <div class="audio-player" id="audio-player">
+        <div class="player-container">
+            <div class="left-controls">
+                <div class="speed-controls" title="Playback Speed">
+                    <button class="control-button small" id="speed-down">
+                        <i class="fas fa-backward"></i>
+                    </button>
+                    <span class="speed-display">1x</span>
+                    <button class="control-button small" id="speed-up">
+                        <i class="fas fa-forward"></i>
+                    </button>
+                </div>
+                <button class="play-button">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button class="control-button stop-button" id="stop-button" title="Stop">
+                    <i class="fas fa-stop"></i>
+                </button>
+            </div>
+            <div class="waveform" id="waveform"></div>
+            <span class="time-display">0:00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/wavesurfer.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
