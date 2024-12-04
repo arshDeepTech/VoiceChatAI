@@ -35,7 +35,9 @@ git clone https://github.com/arshDeepTech/VoiceChatAI.git
 2. Install dependencies:
 ```bash
 cd VoiceChatAI
-bash install.sh
+conda create --name voicechatai_env python=3.9 numba inflect -y
+source activate voicechatai_env
+pip install -r requirements.txt
 ```
 3. Start the server:
 ```bash
