@@ -1,0 +1,10 @@
+flask
+flask-cors
+Flask-Session>=0.4.0
+numpy
+scipy
+transformers>=4.30.0
+torch>=2.0.0
+pyttsx3
+sentencepiece
+soundfile

@@ -1,0 +1,12 @@
+{
+  "name": "voice-chatbot",
+  "version": "1.0.0",
+  "description": "Voice chatbot frontend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
