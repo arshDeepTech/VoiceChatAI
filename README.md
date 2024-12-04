@@ -35,7 +35,7 @@ git clone https://github.com/arshDeepTech/VoiceChatAI.git
 2. Install dependencies:
 ```bash
 cd VoiceChatAI
-python install.sh
+bash install.sh
 ```
 3. Start the server:
 ```bash
