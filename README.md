@@ -13,6 +13,12 @@ VoiceChatAI is an interactive voice-based chatbot that combines speech recogniti
 - **Speed Control**: Adjust playback speed for generated responses
 - **Cross-Platform**: Works on all modern browsers and devices
 
+## 🤔 Why This Tech Stack?
+- This project was originally built as part of a hackathon, emphasizing speed, simplicity, and accessibility. To keep the proof-of-concept (POC) free and lightweight:
+  - LLM Choice: The DialoGPT-medium model was selected to provide reasonable conversation flow without incurring costs associated with premium models like GPT-4 or Claude. Upgrading to such models could significantly enhance response quality but would require API keys and a paid subscription.
+  - TTS Engine: Whisper-small and fast text-to-speech (TTS) was chosen for its balance between speed and accuracy, ensuring quick responses even on standard compute resources. For more accurate and expressive speech synthesis, heavier or paid options could be explored in the future.
+
+
 ## 🛠️ Tech Stack
 
 - **Frontend**:
