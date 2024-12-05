@@ -5,7 +5,7 @@ VoiceChatAI is an interactive voice-based chatbot that combines speech recogniti
 
 [🎥 Watch the Demo](demo.mp4)
 
-[![Watch the Demo]()]([https://raw.githubusercontent.com/username/repository/branch/path/to/video.mp4](https://github.com/arshDeepTech/VoiceChatAI/blob/main/demo.mp4))
+[![Watch the Demo](https://github.com/arshDeepTech/VoiceChatAI/blob/main/thumbnail.png)](https://github.com/arshDeepTech/VoiceChatAI/blob/main/demo.mp4))
 
 
 
