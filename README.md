@@ -3,6 +3,7 @@
 
 VoiceChatAI is an interactive voice-based chatbot that combines speech recognition, natural language processing, and text-to-speech synthesis to create seamless voice conversations. Built with DialoGPT-medium, it offers context-aware responses and natural conversation flow.
 
+[🎥 Watch the Demo](demo.mp4)
 
 ## ✨ Features
 
